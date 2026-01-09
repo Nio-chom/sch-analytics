@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Мини-опросник</title>
+</head>
+<body>
+    <h1>Пройди мини-опрос!</h1>
+    <form method="post">
+        Имя: <input type="text" name="name" required><br><br>
+        Пол:
+        <select name="gender" required>
+            <option value="male">Мальчик</option>
+            <option value="female">Девочка</option>
+        </select><br><br>
+        Как часто делаешь домашние задания? (1-5):
+        <input type="number" name="study_habit" min="1" max="5" required><br><br>
+        <input type="submit" value="Отправить и перейти к результатам">
+    </form>
+</body>
+</html>
